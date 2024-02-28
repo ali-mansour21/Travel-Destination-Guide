@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header .main-container .logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header .main-container .logo svg {
+  width: 50px;
+}
+header .main-container .nav-links ul {
+  list-style-type: none;
+}
+header .main-container .nav-links li {
+  font-size: 20px;
+}
+header .main-container .nav-links li h3 {
+  font-weight: normal;
+}
+header .main-container .nav-links li:is(:hover) a {
+  color: #7fb3d5;
+}
+header .main-container .nav-links svg {
+  width: 25px;
+}
+section .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .head img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+section .main-container > p {
+  margin-top: 10px;
+  font-size: 17px;
+  text-align: center;
+}
+section .main-container .form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+section .main-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+section .main-container form input {
+  padding: 10px 25px;
+  border: 1px solid #7fb3d5;
+  border-radius: 3px;
+  background-color: #fff;
+}
+section .main-container form button {
+  margin-top: 10px;
+  padding: 13px 45px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #7fb3d5;
+}
+section .main-container form button:hover {
+  cursor: pointer;
+  background-color: #26547c;
+}
+footer {
+  margin-top: 112px;
+  background-color: #26547c;
+  padding: 20px;
+}
+footer .main-container h1,
+footer .main-container h2,
+footer .main-container small {
+  color: #ffff;
+}
+footer .main-container h1 {
+  max-width: 500px;
+  margin-top: 5px;
+  font-weight: bold;
+}

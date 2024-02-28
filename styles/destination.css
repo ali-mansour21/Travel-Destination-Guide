@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header .main-container .logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header .main-container .logo svg {
+  width: 50px;
+}
+header .main-container .nav-links ul {
+  list-style-type: none;
+}
+header .main-container .nav-links li {
+  font-size: 20px;
+}
+header .main-container .nav-links li h3 {
+  font-weight: normal;
+}
+header .main-container .nav-links li:is(:hover) a {
+  color: #7fb3d5;
+}
+header .main-container .nav-links svg {
+  width: 25px;
+}
+.main-destination {
+  margin-top: 90px;
+}
+.main-destination aside h1 {
+  color: #26547c;
+  font-size: 35px;
+  font-weight: bold;
+}
+.main-destination aside p {
+  margin-top: 15px;
+}
+.main-destination aside p::first-letter {
+  text-transform: capitalize;
+  color: #7fb3d5;
+  font-size: 35px;
+}
+.main-destination aside p > span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #7fb3d5;
+}
+.main-destination aside:nth-child(3) {
+  margin-top: 20px;
+}
+.main-destination main img {
+  width: 80%;
+  border-radius: 3px;
+  max-width: 100%;
+}
+footer {
+    margin-top: 112px;
+  background-color: #26547c;
+  padding: 20px;
+}
+footer .main-container h1,
+footer .main-container h2,
+footer .main-container small {
+  color: #ffff;
+}
+footer .main-container h1 {
+  max-width: 500px;
+  margin-top: 5px;
+  font-weight: bold;
+}
